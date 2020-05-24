@@ -1,0 +1,22 @@
+@media (max-width: 980px) {
+  .appСontainer {
+    .appContainerWrapper {
+      max-width: 630px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .appСontainer {
+    .appContainerWrapper {
+      max-width: 470px;
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .appСontainer {
+    .appContainerWrapper {
+      max-width: 330px;
+      margin: 45px 5px;
+    }
+  }
+}

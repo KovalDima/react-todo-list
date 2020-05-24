@@ -1,0 +1,11 @@
+@import '../../scss/mixins.scss';
+
+.searchPanel {
+  @include entry-field;
+  background-image: url(../../img/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  padding-left: 45px;
+}
+
+@import './searchPanel_media.scss';

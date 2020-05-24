@@ -1,0 +1,24 @@
+@media (max-width: 980px) {
+  .addItemPanel {
+    max-width: 400px;
+  }
+  .addItemBtn {
+    width: 180px;
+  }
+}
+@media (max-width: 650px) {
+  .addItemPanel {
+    max-width: 300px;
+  }
+  .addItemBtn {
+    width: 150px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .addItemPanel {
+    max-width: 215px;
+  }
+  .addItemBtn {
+    width: 90px;
+  }
+}

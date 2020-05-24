@@ -1,0 +1,11 @@
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+@import './todoList_media.scss';

@@ -1,0 +1,23 @@
+.btnFilterGroup {
+  max-width: 250px;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  .btnFilter {
+    background-color: transparent;
+    border: none;
+    padding: 11.3px 22.8px;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .btnFilter + .btnFilter {
+    border-left: 1px solid #f2f2f2;
+  }
+  .active {
+    background-color: #f2f2f2;
+  }
+}
+
+@import './itemStatusFilter_media.scss';

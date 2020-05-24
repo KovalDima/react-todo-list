@@ -1,0 +1,15 @@
+.appHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  .appHeader {
+    font-size: 50px;
+    color: #363636;
+  }
+  .leftToDo {
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 118px;
+  }
+}
+
+@import './appHeader_media.scss';

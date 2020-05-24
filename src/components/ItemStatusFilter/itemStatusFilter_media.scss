@@ -1,0 +1,17 @@
+@media (max-width: 980px) {
+  .btnFilterGroup {
+    max-width: 180px;
+    .btnFilter {
+      padding: 11.3px 11.15px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .btnFilterGroup {
+    max-width: 150px;
+    .btnFilter {
+      padding: 11.3px 8.2px;
+      font-size: 16px;
+    }
+  }
+}

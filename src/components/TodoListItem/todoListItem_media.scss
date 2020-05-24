@@ -1,0 +1,33 @@
+@media (max-width: 980px) {
+  .btnWrapper {
+    max-width: 180px;
+    .btnTrash,
+    .btnImportant {
+      padding: 6px 29.5px 3px;
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 650px) {
+  .btnWrapper {
+    max-width: 82px;
+    .btnTrash,
+    .btnImportant {
+      padding: 6px 6.5px 3px;
+    }
+    .btnImportant {
+      margin-left: 12px;
+    }
+    .btnTrash:hover {
+      background-color: transparent;
+      .trashIcon {
+        fill: #ff7575;
+      }
+    }
+    .btnImportant:hover {
+      background-color: transparent;
+      .importantIcon {
+        fill: #363636;
+      }
+    }
+  }
+}

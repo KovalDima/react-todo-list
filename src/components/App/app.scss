@@ -1,0 +1,32 @@
+@font-face {
+  src: url(../../fonts/SFNS.ttf);
+  font-family: 'SFNS Display';
+  font-weight: normal;
+}
+body {
+  background-color: #fcfcfc;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'SFNS Display';
+}
+.appСontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .appContainerWrapper {
+    max-width: 960px;
+    width: 100%;
+    margin: 25px 0;
+    .topPanel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 0 10px 0;
+    }
+  }
+}
+
+@import './app_media.scss';
